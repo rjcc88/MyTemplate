@@ -158,7 +158,7 @@ const Home = ({ navigation }) => {
 
     return (
         <SafeAreaView className="p-4">
-            {layoutHeader()}
+            {/* {layoutHeader()} */}
             {layoutCardHeader()}
             {laoutbalance()}
             {layoutPayNow()}

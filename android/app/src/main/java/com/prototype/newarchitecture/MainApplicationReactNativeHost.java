@@ -1,4 +1,4 @@
-package com.pointofsale.newarchitecture;
+package com.prototype.newarchitecture;
 
 import android.app.Application;
 import androidx.annotation.NonNull;
@@ -19,9 +19,9 @@ import com.facebook.react.fabric.CoreComponentsRegistry;
 import com.facebook.react.fabric.FabricJSIModuleProvider;
 import com.facebook.react.fabric.ReactNativeConfig;
 import com.facebook.react.uimanager.ViewManagerRegistry;
-import com.pointofsale.BuildConfig;
-import com.pointofsale.newarchitecture.components.MainComponentsRegistry;
-import com.pointofsale.newarchitecture.modules.MainApplicationTurboModuleManagerDelegate;
+import com.prototype.BuildConfig;
+import com.prototype.newarchitecture.components.MainComponentsRegistry;
+import com.prototype.newarchitecture.modules.MainApplicationTurboModuleManagerDelegate;
 import java.util.ArrayList;
 import java.util.List;
 
