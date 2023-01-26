@@ -112,7 +112,7 @@ const Home = ({ navigation }) => {
     function layoutPayNow() {
         return (
             <View className="mt-4">
-                <TouchableOpacity className="text-white bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:ring-blue-300 font-medium rounded-lg text-sm px-5 py-2.5 mr-4 ml-4 mb-2 dark:bg-blue-600 dark:hover:bg-blue-700 focus:outline-none dark:focus:ring-blue-800">
+                <TouchableOpacity className="text-white bg-[#0f4863] focus:ring-4 focus:ring-blue-300 font-medium rounded-lg text-sm px-5 py-2.5 mr-4 ml-4 mb-2 dark:bg-blue-600 focus:outline-none dark:focus:ring-blue-800">
                     <Text className="text-center text-white">Pay Now</Text>
                 </TouchableOpacity>
             </View>
@@ -127,7 +127,10 @@ const Home = ({ navigation }) => {
                         <Text className="text-black text-base">Payment History</Text>
                     </View>
                     <View className="">
-                        <Icons name="filter-outline" size={24} color="gray" />
+                        <TouchableOpacity className="rounded-full">
+                        <Icons name="filter-outline" size={24} color="black" />
+                        </TouchableOpacity>
+                       
                     </View>
                 </View>
 

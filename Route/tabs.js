@@ -134,7 +134,7 @@ const Tabs = () => {
                 options={{
                     tabBarIcon: ({ focused, color, size }) => (
                         <Icon
-                            name="home"
+                            name="home-outline"
                             size={size ? size : 26}
                             color={focused ? color : "#222222"}
                             focused={focused}
@@ -151,8 +151,8 @@ const Tabs = () => {
                 options={{
                     tabBarIcon: ({ focused, color, size }) => (
                         <Icon
-                            name="account"
-                            size={size ? size : 24}
+                            name="account-outline"
+                            size={size ? size : 26}
                             color={focused ? color : "#222222"}
                             focused={focused}
                             // color={color}
