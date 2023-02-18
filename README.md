@@ -1,4 +1,4 @@
-# MyTemplate
+# React Native Template Pure Javascript
 
 Installed Packages
 -------------------
@@ -10,6 +10,8 @@ Nativewind css
 React Hook Form
 SVG
 Vector Icons
+
+with Sample Screens
 
 
 Open Source Prototype Redux Login &amp; Navigation Mobile App
