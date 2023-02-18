@@ -1,4 +1,4 @@
-# React Native Template Pure Javascript
+# React Native Template Pure Javascript For Beginner
 
 Installed Packages
 -------------------
